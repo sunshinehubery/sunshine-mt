@@ -1,12 +1,15 @@
 <template>
+  <!-- 右侧图片内容 -->
   <div class="m-life">
     <el-row>
+      <!-- 轮播图片展示 -->
       <el-col :span="14">
         <slider/>
       </el-col>
       <el-col :span="4">
         <div class="m-life-pic"/>
       </el-col>
+      <!-- 登录 -->
       <el-col :span="6">
         <div class="m-life-login">
           <h4><img 
@@ -22,6 +25,7 @@
         </div>
       </el-col>
     </el-row>
+    <!-- 下面部分图片内容 -->
     <el-row>
       <el-col :span="7">
         <div class="m-life-hotel"/>

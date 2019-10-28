@@ -1,7 +1,7 @@
 .el-container{
     background: #eee;
 }
-.el-header,.el-main,.el-footer{
+.el-header,.el-main{
     width: 1190px;
     margin: 0 auto;
     padding: 0;
@@ -17,6 +17,13 @@
         width: 1190px;
         margin: 0 auto;
     }
+}
+.el-footer{
+    width: 1190px;
+    margin-top: 50px;
+    padding: 0;
+    overflow: unset;
+    margin-left: 216px;
 }
 
 .layout-default{
